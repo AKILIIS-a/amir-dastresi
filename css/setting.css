@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+:root{
+    --shabnam :shabnam;
+    --perNum :perNum ;
+    --shabnamB :shabnamB 
+    --btnRadius:10px;
+    --hoverText:#0A295A;
+    --black-16:rgba(0, 0, 0, 0.16);
+}
+.wraper{
+    width: 100%;
+
+}
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/shabnam/Shabnam.woff);
+}
+@font-face {
+    font-family: perNum;
+    src: url(../fonts/perNum.woff);
+}
+@font-face{
+    font-family: shabnamB;
+    src: url(../fonts/shabnam/Shabnam-Bold-FD.woff);
+}
+  ::-webkit-scrollbar-thumb{
+ 
+    background-color: rgb(44, 82, 130) ;
+    border-radius: 15px;
+    transition: 200ms;
+  }
+  ::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgba(128, 128, 128, 0.164);
+     
+  }
+  ::-webkit-scrollbar-thumb:hover{
+
+        background-color: rgba(44, 83, 130, 0.684);
+    
+  }
+  
